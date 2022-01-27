@@ -1,0 +1,15 @@
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.csproj.AssemblyReference.cache
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.AssemblyInfoInputs.cache
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.AssemblyInfo.cs
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.csproj.CoreCompileInputs.cache
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\POO-RPG.exe
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\POO-RPG.deps.json
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\POO-RPG.runtimeconfig.json
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\POO-RPG.dll
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\ref\POO-RPG.dll
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\bin\Debug\net6.0\POO-RPG.pdb
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.dll
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\ref\POO-RPG.dll
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.pdb
+C:\Users\miche\Documents\GitHub\RPG-C#\POO-RPG\obj\Debug\net6.0\POO-RPG.genruntimeconfig.cache
