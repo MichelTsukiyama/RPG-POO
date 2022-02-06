@@ -4,15 +4,6 @@ namespace POO_RPG.src.Entities
 {
     public class Assassin : Character
     {
-        public Assassin(string Name, int Level, int Strength, int Vitality, int Intelligency)
-        {   
-            this.Name = Name;
-            this.Level = Level;
-            this.Strength = Strength;
-            this.Vitality = Vitality;
-            this.Intelligency = Intelligency;
-        }
-
         Random rnd = new Random();
         const int HP = 55;
         const int MP = 10;
@@ -23,7 +14,7 @@ namespace POO_RPG.src.Entities
 
         public override void Status()
         {
-            Console.WriteLine($"Nome: {Name}");
+            Console.WriteLine($"Nome: {getName()}");
             Console.WriteLine($"Nível: {Level}");
             Console.WriteLine($"Classe: {Class}");
             Console.WriteLine($"HP: {(Vitality + Level) * HP}");
@@ -35,10 +26,10 @@ namespace POO_RPG.src.Entities
         {
             if (rnd.Next(1, 10) > 5)
             {
-            Console.WriteLine($"O {Class} {Name}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level * CriticalBonus} de dano crítico");
+            Console.WriteLine($"O {Class} {getName()}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level * CriticalBonus} de dano crítico");
             } else
             {
-            Console.WriteLine($"O {Class} {Name}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level} de dano ");
+            Console.WriteLine($"O {Class} {getName()}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level} de dano ");
             }
         }
     }

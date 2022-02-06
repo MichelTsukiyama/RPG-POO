@@ -7,21 +7,25 @@ namespace POO_RPG
     {
         static void Main(string[] args)
         {
-            Knight arthur = new Knight("Arthur", 10, 15, 10, 5);
+            Knight arthur = new Knight();
+            arthur.CreateCharacter("Arthur", 10, 15, 10, 5);
             arthur.Attack();
             arthur.Status();
 
-            Assassin zodiaco = new Assassin("Zodiaco", 10, 20, 5, 5);
+            Assassin zodiaco = new Assassin();
+            zodiaco.CreateCharacter("Zodiaco", 10, 20, 5, 5);
             zodiaco.Attack();
             zodiaco.Attack();
             zodiaco.Attack();
             zodiaco.Status();
 
-            Mage merlin =new Mage("Merlin", 10, 1, 10, 19);
+            Mage merlin = new Mage();
+            merlin.CreateCharacter("Merlin", 10, 1, 10, 19);
             merlin.Attack();
             merlin.Status();
 
-            Healer frei = new Healer("Frei", 10, 1, 14, 15);
+            Healer frei = new Healer();
+            frei.CreateCharacter("Frei", 10, 1, 14, 15);
             frei.Heal();
             frei.Status();
 

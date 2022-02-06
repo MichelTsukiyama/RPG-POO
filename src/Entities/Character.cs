@@ -2,7 +2,7 @@ namespace POO_RPG.src.Entities
 {
     public abstract class Character
     {
-        public Character(string Name, int Level, int Strength, int Vitality, int Intelligency)
+        public void CreateCharacter(string Name, int Level, int Strength, int Vitality, int Intelligency)
         {   
             this.Name = Name;
             this.Level = Level;
@@ -10,20 +10,20 @@ namespace POO_RPG.src.Entities
             this.Vitality = Vitality;
             this.Intelligency = Intelligency;
         }
-
-        public Character()
-        {
-
-        }
-        public string Name;
+        private string Name;
         public int Level;
         public int Strength; 
         public int Vitality;
         public int Intelligency;
 
+        public string getName()
+        {
+            return this.Name = Name;
+        }
+
         public virtual void Attack()
         {
-            Console.WriteLine($"{Name}, Nível: {Level}, atacou e causou {Level} de dano");
+            Console.WriteLine($"{getName()}, Nível: {Level}, atacou e causou {Level} de dano");
         }
 
         public virtual void Status()

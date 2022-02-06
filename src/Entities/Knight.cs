@@ -2,14 +2,6 @@ namespace POO_RPG.src.Entities
 {
     public class Knight : Character
     {
-        public Knight(string Name, int Level, int Strength, int Vitality, int Intelligency)
-        {   
-            this.Name = Name;
-            this.Level = Level;
-            this.Strength = Strength;
-            this.Vitality = Vitality;
-            this.Intelligency = Intelligency;
-        }
         Random rnd = new Random();
         const int HP = 100;
         const int MP = 15;
@@ -19,7 +11,7 @@ namespace POO_RPG.src.Entities
 
         public override void Status()
         {
-            Console.WriteLine($"Nome: {Name}");
+            Console.WriteLine($"Nome: {getName()}");
             Console.WriteLine($"Nível: {Level}");
             Console.WriteLine($"Classe: {Class}");
             Console.WriteLine($"HP: {(Vitality + Level) * HP}");
@@ -31,10 +23,10 @@ namespace POO_RPG.src.Entities
         {
             if(rnd.Next(1, 10) > 7)
             {
-                Console.WriteLine($"O {Class} {Name}, Nível: {Level}, bloqueou o golpe inimigo e contra-atacou causando {Strength * ClassBonusDamage + Level} de dano");
+                Console.WriteLine($"O {Class} {getName()}, Nível: {Level}, bloqueou o golpe inimigo e contra-atacou causando {Strength * ClassBonusDamage + Level} de dano");
             }else
             {
-                Console.WriteLine($"O {Class} {Name}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level} de dano");
+                Console.WriteLine($"O {Class} {getName()}, Nível: {Level}, atacou e causou {Strength * ClassBonusDamage + Level} de dano");
             }
         }
 
